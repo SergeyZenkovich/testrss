@@ -3,13 +3,13 @@
 * Telegram  - https://t.me/SergeyZenkovich
 * Mobile - +375298868275 
 * Email - sapocalipsys.z@gmail.com
- ## Summary:  
+ ## Summary:
+ Acquire knowledge, learn something new every day is very imporant for me. Also I want to solve unusual tasks. 
 **Goal** - Work as a Front-End developer in big product company. <br/>
 **Wishes:**
  * Have strong knowledge in different frameworks.
  * Work in future with AR and VR technologies.
- * Try myself in web design.<br/>
-  Acquire knowledge, learn something new every day is very imporant for me. Also I want to solve unusual tasks.   
+ * Try myself in web design.    
 ## Skills:
 * HTML5 + semantic HTML
 * CSS + Sass
