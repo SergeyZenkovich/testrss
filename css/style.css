@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css?family=Hind+Guntur:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap');
+body{
+    width:1024px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 230px;
+    border-radius: 5px;
+    overflow-y: hidden;
+    background-image: url(../assets/img/CV.jpg);
+    background-size: 100wh;
+    color: white;
+    font-family: 'Hind Guntur', sans-serif;
+    font-weight: 700;
+}
+.header-wrapper{
+    padding: 10px 55px;
+}
+.name{
+    font-size:2em;
+}
+.position{
+    font-size: 0.9em;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+.photo{
+    width: 150px;
+    height: 150px;
+    margin-bottom: -3%;
+    border-radius: 5%;
+    border: 10px solid #e8e7e8;
+}
+.contact-info{
+    display: flex;
+    justify-content: space-between;
+    width: 470px;
+    height: 70px;
+    margin-right: -55px;
+    margin-top: 110px;
+    background-color: rgb(75, 77, 134, 0.5);
+}
+.contact-elem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-elem-mob{
+    width: 120px;
+}
+.contact-elem-mail{
+    width: 140px;
+}
+.contact-elem-tg{
+    width: 160px;
+}
+.contact-elem-p{
+    font-size: 0.7em;
+    font-weight: 700;
+    line-height: 36px;
+}
+.mobile::before{
+    display: block;
+    content:"";
+    width: 25px;
+    height:25px;
+    margin-left: 35%;
+    background: url(../assets/img/Background-mob.svg);
+}
+.mail::before{
+    display: block;
+    content:"";
+    width: 25px;
+    height:25px;
+    margin-left: 45%;
+    background: url(../assets/img/Background-mail.svg);
+}
+.telegram::before{
+    display: block;
+    content:"";
+    width: 25px;
+    height:25px;
+    margin-left: 45%;
+    background: url(../assets/img/Background-tg.svg);
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    height: 600px;
+    margin-top: 10px;
+}
+.left-media{
+    width: 25%;
+    border-radius: 5%;
+    padding: 20px;
+    font-family: 'PT Sans', sans-serif;
+    background-color: #e2e2e2;
+}
+.right-media{
+    width: 65%;
+    border-radius: 5%;
+    padding: 20px;
+    font-family: 'PT Sans', sans-serif;
+    background-color: #e2e2e2;
+}
+.social-media{
+    margin-bottom:20px;
+}
+.summary{
+    margin-bottom:20px;
+}
+.social::before{
+    display: inline-block;
+    content:"";
+    width: 34px;
+    height:34px;
+    margin-right: 10px;
+    background: url(../assets/img/Background.svg);
+}
+.skills::before{
+    display: inline-block;
+    content:"";
+    width: 38px;
+    height:38px;
+    margin-right: 10px;
+    background: url(../assets/img/Background-skill.svg);
+}
+.summary-p::before{
+    display: inline-block;
+    content:"";
+    width: 38px;
+    height:38px;
+    margin-right: 10px;
+    background: url(../assets/img/Background-summary.svg);
+}
+.education-p::before{
+    display: inline-block;
+    content:"";
+    width: 40px;
+    height:36px;
+    margin-right: 10px;
+    background: url(../assets/img/Background-education.svg);
+}
+.english-p::before{
+    display: inline-block;
+    content:"";
+    width: 40px;
+    height:36px;
+    margin-right: 10px;
+    background: url(../assets/img/Background-english.svg);
+}
+.experience-p::before{
+    display: inline-block;
+    content:"";
+    width: 38px;
+    height:32px;
+    margin-right: 10px;
+    background: url(../assets/img/Background-exp.svg);
+    
+}
+.code-p::before{
+    display: inline-block;
+    content:"";
+    width: 40px;
+    height:36px;
+    margin-right: 10px;
+    background: url(../assets/img/Background-code.svg);
+}
+.social,.skills,.summary-p,.education-p, .english-p, .experience-p, .code-p{
+    font-size: 1.6em;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 36px;
+}
+.social-ul, .whishes-ul, .education-ul{
+    list-style: square;
+    padding-left: 25px;
+}
+.social-elem:first-child{
+    margin-top: 10px;
+}
+.social-elem{
+    width: 90%;
+    margin-bottom:12px;
+}
+.goal-span, .whishes-span, .level-span{
+    font-weight: 700;
+    font-size: 1.1em;
+}
+.text{
+    margin: 5px 0px;
+}
+.skills-bar{
+    margin-top: 50px;
+}
+.goal,.level, .education, .english, .experience{
+    margin-bottom: 20px;
+}
